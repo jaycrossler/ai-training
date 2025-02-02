@@ -13,7 +13,13 @@ All the items that start with **Notebook** are Python Notebooks that can either 
 <img src="images/open_in_colab.png" alt="Click the Open in Colab button to load into the cloud" width="400" ></a>
 <img src="images/colab_run_block.png" alt="Press the play triangle in each block to run the code within" width="400" ></a>
 
+### Using Huggingface Spaces ###
 
+HuggingFace is a place to share and research AI models, with a focus on Small Language Models. If you get a free account, you can launch many of the models to test with in "Spaces."
+<img src="images/using_huggingface_spaces.png" alt="Run spaces as cloud servers" width="600" ></a>
+
+
+### Code Notebook Demos/Courses
 | | | |
 |--|--|--|
 |<a href="Exploring_Small_Language_Models.ipynb" target="_blank"><img src="images/DALLE_slm.png" alt="Thumbnail" width="200" ></a>|[Notebook 1: Exploring Small Models](Exploring_Small_Language_Models.ipynb) |Point to a very small (250Mb) model and perform basic queries and AI language tricks on it (like sentence classification or translation). |
@@ -26,6 +32,25 @@ All the items that start with **Notebook** are Python Notebooks that can either 
 |<a href="CrewAI%20Multiple%20Agents%20with%20search.ipynb" target="_blank"><img src="images/ai_crew_1.png" alt="Thumbnail" width="200" ></a>|[Notebook 8: AI Agents that negotiate with each other](CrewAI%20Multiple%20Agents%20with%20search.ipynb)|Use CrewAI with LLaMa 3 running locally (via ollama) to have 4 agents that do research, then negotiate with each other to write a document|
 |<a href="CrewAI_Example.ipynb" target="_blank"><img src="images/ai_agent_2.png" alt="Thumbnail" width="200" ></a>|[Notebook 9: AI Agents that search, RAG, and remember](CrewAI_Example.ipynb)|Use CrewAI with OpenAI and a News service to lookup data, store it in a knowledge graph, then answer results<br/>**Requires: OpenAI API Key and newsapi.org Key**|
 
+### HuggingFace Space Demos/Courses
+
+Stable Diffusion Image generator:
+<img src="images/hf_flux_via_spaces.png" >
+
+Llava image analyzer:
+<img src="images/hf_llava.png" >
+
+Non-transformer based Language model:
+<img src="images/hf_non_transformer.png" >
+
+Deepseek when asked about drones:
+<img src="images/hf_deepseek_vomiting.png" >
+
+Generate 3D models and textures:
+<img src="images/hf_3d_model.png" >
+
+Generate sound file with realistic accents:
+<img src="images/hf_accents.png" >
 
 
 
