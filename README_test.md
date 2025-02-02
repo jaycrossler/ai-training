@@ -6,89 +6,18 @@
 
 All of these examples are living documents of AI techniques - updated so that you can follow along, run code and apps yourself (without having to install software onto your machine), and learn the details of how to employ AI solutions in real world software.
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+| | | |
+|--|--|--|
+|<a href="Exploring_Small_Language_Models.ipynb" target="_blank"><img src="images/DALLE_slm.png" alt="Thumbnail" width="200" ></a>|[Module 1: Exploring Small Models](Exploring_Small_Language_Models.ipynb) |Point to a very small (250Mb) model and perform basic queries and AI language tricks on it (like sentence classification or translation). |
+|<a href="Ollama%20and%20pydantic.ipynb" target="_blank"><img src="images/DALLE_chip.png" alt="Thumbnail" width="200" ></a>|[Module 2: Ollama and Pydantic](Ollama%20and%20pydantic.ipynb)|Set up a local SLM (or a few of them) using ollama, then use the Pydantic python framework to access it.|
+|<a href="Accessing_OpenAI_via_API.ipynb" target="_blank"><img src="images/DALLE_slm.png" alt="Thumbnail" width="200" ></a>|[Module 3: Querying OpenAI remotely](Accessing_OpenAI_via_API.ipynb) |**Requires OpenAI API Key (not pro account)** Send queries to OpenAI through python, receive 'structured' responses (to use in apps) |
+|<a href="Building%20SmolAgents.ipynb" target="_blank"><img src="images/DALLE_chip.png" alt="Thumbnail" width="200" ></a>|[Module 4: Build simple AI agents](Building%20SmolAgents.ipynb)|Use the smolagents framework using a SLM to run simple AI agents that write code, create images, and build graphs.|
+|<a href="Mistral%20Small%20via%20API.ipynb" target="_blank"><img src="images/DALLE_slm.png" alt="Thumbnail" width="200" ></a>|[Module 5: Exploring the Mistral SLM](Mistral%20Small%20via%20API.ipynb) |**Requires MISTRAL API Key** Send queries to the highly performant Mistral Small, and test it on common math questions |
+|<a href="Using%20AI%20Agents%20to%20build%20a%20Knowledge%20Graph%20and%20verify%20results.ipynb" target="_blank"><img src="images/DALLE_chip.png" alt="Thumbnail" width="200" ></a>|[Module 6: Retrieval-augmented generation (RAG)](Using%20AI%20Agents%20to%20build%20a%20Knowledge%20Graph%20and%20verify%20results.ipynb)|**Requires OpenAI API Key** Extract the contents from PDFs, add those to a knowledge graph, then use OpenAI to use that knowledge when answering prompts|
+|<a href="RAG%20into%20a%20Knowledge%20Graph%20with%20Matryoshka%20Embeddings.ipynb" target="_blank"><img src="images/DALLE_chip.png" alt="Thumbnail" width="200" ></a>|[Module 7: More efficient RAG](RAG%20into%20a%20Knowledge%20Graph%20with%20Matryoshka%20Embeddings.ipynb)|**Requires OpenAI API Key** Use Matryoshka Embeddings to encode knowledge at different levels of complexity, making retrieval faster and a bit better|
 
-  <div style="width: 30%; margin-bottom: 20px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <a href="https://github.com/jaycrossler/ai-training/blob/main/Exploring_Small_Language_Models.ipynb" target="_blank">
-      <img src="images/DALLE_slm.png" alt="Thumbnail" width="400" height=200 style="border-radius: 6px;">
-    </a>
-    <h3><a href="https://github.com/yourusername/yourrepo/tree/main/module1" target="_blank" style="text-decoration: none; color: #0366d6;">Module 1: Exploring Small Models</a></h3>
-    <p>Install a very small (250Mb) model and perform basic queries and AI language tricks on it (like sentence classification or translation).</p>
-  </div>
 
-  <div style="width: 30%; margin-bottom: 20px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <a href="https://github.com/yourusername/yourrepo/tree/main/module2" target="_blank">
-      <img src="images/DALLE_chip.png" alt="Thumbnail" width="400" height=200 style="border-radius: 6px;">
-    </a>
-    <h3><a href="https://github.com/yourusername/yourrepo/tree/main/module2" target="_blank" style="text-decoration: none; color: #0366d6;">Module 2: Animation</a></h3>
-    <p>Explore different animation techniques and libraries for web development.</p>
-  </div>
 
-  <div style="width: 30%; margin-bottom: 20px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <a href="https://yourusername.github.io/yourrepo/demo1" target="_blank">
-      <img src="https://via.placeholder.com/300x200?text=Demo+1" alt="Thumbnail" width="100%" style="border-radius: 6px;">
-    </a>
-    <h3><a href="https://yourusername.github.io/yourrepo/demo1" target="_blank" style="text-decoration: none; color: #0366d6;">Demo 1: Interactive Game</a></h3>
-    <p>Play a simple interactive game built with JavaScript and HTML Canvas.</p>
-  </div>
-
-   <div style="width: 30%; margin-bottom: 20px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <a href="https://github.com/yourusername/yourrepo/blob/main/tutorial1.md" target="_blank">
-      <img src="https://via.placeholder.com/300x200?text=Tutorial+1" alt="Thumbnail" width="100%" style="border-radius: 6px;">
-    </a>
-    <h3><a href="https://github.com/yourusername/yourrepo/blob/main/tutorial1.md" target="_blank" style="text-decoration: none; color: #0366d6;">Tutorial 1: Getting Started</a></h3>
-    <p>A step-by-step tutorial to get you up and running with the project.</p>
-  </div>
-
-  <div style="width: 30%; margin-bottom: 20px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <a href="https://github.com/yourusername/yourrepo/issues" target="_blank">
-      <img src="https://via.placeholder.com/300x200?text=Issues" alt="Thumbnail" width="100%" style="border-radius: 6px;">
-    </a>
-    <h3><a href="https://github.com/yourusername/yourrepo/issues" target="_blank" style="text-decoration: none; color: #0366d6;">Report Issues</a></h3>
-    <p>Found a bug or have a suggestion? Let us know on the issues page.</p>
-  </div>
-
-    <div style="width: 30%; margin-bottom: 20px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <a href="https://github.com/yourusername/yourrepo/wiki" target="_blank">
-      <img src="https://via.placeholder.com/300x200?text=Wiki" alt="Thumbnail" width="100%" style="border-radius: 6px;">
-    </a>
-    <h3><a href="https://github.com/yourusername/yourrepo/wiki" target="_blank" style="text-decoration: none; color: #0366d6;">Project Wiki</a></h3>
-    <p>Explore the comprehensive project documentation and FAQs in our Wiki.</p>
-  </div>
-
-  <div style="width: 30%; margin-bottom: 20px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <a href="https://github.com/yourusername/yourrepo/releases" target="_blank">
-      <img src="https://via.placeholder.com/300x200?text=Releases" alt="Thumbnail" width="100%" style="border-radius: 6px;">
-    </a>
-    <h3><a href="https://github.com/yourusername/yourrepo/releases" target="_blank" style="text-decoration: none; color: #0366d6;">Latest Releases</a></h3>
-    <p>Check out the latest stable releases and release notes.</p>
-  </div>
-
-  <div style="width: 30%; margin-bottom: 20px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <a href="https://github.com/yourusername/yourrepo/blob/main/docs/api.md" target="_blank">
-      <img src="https://via.placeholder.com/300x200?text=API+Docs" alt="Thumbnail" width="100%" style="border-radius: 6px;">
-    </a>
-    <h3><a href="https://github.com/yourusername/yourrepo/blob/main/docs/api.md" target="_blank" style="text-decoration: none; color: #0366d6;">API Documentation</a></h3>
-    <p>Detailed documentation for developers using our API.</p>
-  </div>
-
-  <div style="width: 30%; margin-bottom: 20px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <a href="https://github.com/yourusername/yourrepo/graphs/contributors" target="_blank">
-      <img src="https://via.placeholder.com/300x200?text=Contributors" alt="Thumbnail" width="100%" style="border-radius: 6px;">
-    </a>
-    <h3><a href="https://github.com/yourusername/yourrepo/graphs/contributors" target="_blank" style="text-decoration: none; color: #0366d6;">Contributors</a></h3>
-    <p>Meet the amazing people who have contributed to this project.</p>
-  </div>
-
-  <div style="width: 30%; margin-bottom: 20px; border: 1px solid #e1e4e8; border-radius: 6px; padding: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <a href="https://github.com/yourusername/yourrepo/blob/main/examples/example4.html" target="_blank">
-      <img src="https://via.placeholder.com/300x200?text=Example+4" alt="Thumbnail" width="100%" style="border-radius: 6px;">
-    </a>
-    <h3><a href="https://github.com/yourusername/yourrepo/blob/main/examples/example4.html" target="_blank" style="text-decoration: none; color: #0366d6;">Example 4: Advanced Usage</a></h3>
-    <p>An example showcasing a more advanced use case of the project.</p>
-  </div>
-
-</div>
 
 ---
 
