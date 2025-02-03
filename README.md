@@ -37,23 +37,23 @@ HuggingFace is a place to share and research AI models, with a focus on Small La
 
 ### HuggingFace Space Demos/Courses
 
-Stable Diffusion Image generator:
-<img src="images/hf_flux_via_spaces.png" >
+[Stable Diffusion Image generator:
+<img src="images/hf_flux_via_spaces.png" >](https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev)
 
-Llava image analyzer:
-<img src="images/hf_llava.png" >
+[Llava image analyzer:
+<img src="images/hf_llava.png" >](https://huggingface.co/spaces/badayvedat/LLaVA)
 
-Non-transformer based Language model:
-<img src="images/hf_non_transformer.png" >
+[Non-transformer based Language model:
+<img src="images/hf_non_transformer.png" >](https://huggingface.co/spaces/BlinkDL/RWKV-Gradio-2)
 
-Deepseek when asked about drones:
-<img src="images/hf_deepseek_vomiting.png" >
+[Deepseek when asked about drones:
+<img src="images/hf_deepseek_vomiting.png" >](https://huggingface.co/spaces/ruslanmv/DeepSeek-R1-Chatbot)
 
-Generate 3D models and textures:
-<img src="images/hf_3d_model.png" >
+[Generate 3D models and textures:
+<img src="images/hf_3d_model.png" >](https://huggingface.co/spaces/tencent/Hunyuan3D-2)
 
-Generate sound file with realistic accents:
-<img src="images/hf_accents.png" >
+[Generate sound file with realistic accents:
+<img src="images/hf_accents.png" >](https://huggingface.co/spaces/hexgrad/Kokoro-TTS)
 
 
 
