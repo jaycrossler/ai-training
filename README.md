@@ -31,6 +31,9 @@ HuggingFace is a place to share and research AI models, with a focus on Small La
 |<a href="RAG%20into%20a%20Knowledge%20Graph%20with%20Matryoshka%20Embeddings.ipynb" target="_blank"><img src="images/ai_dolls.png" alt="Thumbnail" width="200" ></a>|[Notebook 7: More efficient RAG](RAG%20into%20a%20Knowledge%20Graph%20with%20Matryoshka%20Embeddings.ipynb)|Use Matryoshka Embeddings to encode knowledge at different levels of complexity, making retrieval faster and a bit better<br/>**Requires: OpenAI API Key and Hugging Face Token**|
 |<a href="CrewAI%20Multiple%20Agents%20with%20search.ipynb" target="_blank"><img src="images/ai_crew_1.png" alt="Thumbnail" width="200" ></a>|[Notebook 8: AI Agents that negotiate with each other](CrewAI%20Multiple%20Agents%20with%20search.ipynb)|Use CrewAI with LLaMa 3 running locally (via ollama) to have 4 agents that do research, then negotiate with each other to write a document|
 |<a href="CrewAI_Example.ipynb" target="_blank"><img src="images/ai_agent_2.png" alt="Thumbnail" width="200" ></a>|[Notebook 9: AI Agents that search, RAG, and remember](CrewAI_Example.ipynb)|Use CrewAI with OpenAI and a News service to lookup data, store it in a knowledge graph, then answer results<br/>**Requires: OpenAI API Key and newsapi.org Key**|
+|<a href="Using-Custom-LLM-Endpoint.ipynb" target="_blank"><img src="images/DALLE_chip.png" alt="Thumbnail" width="200" ></a>|[Notebook 10: Use a custom company model](Custom.ipynb)|Use LangGraph to build a visual agent workflow with a custom company API<br/>**Requires: Custom company API Key and domain name**|
+
+
 
 ### HuggingFace Space Demos/Courses
 
