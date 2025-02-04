@@ -11,13 +11,13 @@ All of these examples are living documents of AI techniques - updated so that yo
 All the items that start with **Notebook** are Python Notebooks that can either be run in [Google Colab](https://colab.research.google.com/) or locally (either by setting up Notebooks locally or copying the Python directly into a local file). If you run them on Google Colab, you need a google colab account (free). When you run a notebook in colab, it spawns a server in the cloud and *usually* assigns GPU time to that server. If you use it heavily, you might need to load $10 or so into your Colab account to pay for more server time, but that shouldn't be necessary if you are just running these modules.
 
 <img src="images/open_in_colab.png" alt="Click the Open in Colab button to load into the cloud" width="400" ></a>
-<img src="images/colab_run_block.png" alt="Press the play triangle in each block to run the code within" width="400" ></a>
+<img src="images/colab_run_block.png" alt="Press the play triangle in each block to run the code within" width="400" ></a><br>
+Alternatively, you can install these Notebooks [and run them locally - see instructions here](local_jupyter.md).
 
 ### Using Huggingface Spaces ###
 
 HuggingFace is a place to share and research AI models, with a focus on Small Language Models. If you get a free account, you can launch many of the models to test with in "Spaces."
 <img src="images/using_huggingface_spaces.png" alt="Run spaces as cloud servers" width="600" ></a>
-
 
 ### Code Notebook Demos/Courses
 | | | |
